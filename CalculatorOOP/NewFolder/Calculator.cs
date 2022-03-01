@@ -30,10 +30,16 @@ namespace CalculatorOOP.NewFolder
             }
             
         }
+        public static double Addition(double num1, double num2)
+
+        {
+            double sum = num1 + num2;
+            return sum;
+        }
         public  static double Addition (double[] numbersArray)
         {
             
-            double result = Calculator.Addition(numbersArray);
+            
             double sum = 0;
             for (int i = 0; i < numbersArray.Length; i++)
             {
@@ -43,6 +49,12 @@ namespace CalculatorOOP.NewFolder
 
             return sum;
            
+        }
+        public static double Substraction(double num1, double num2)
+
+        {
+            double sub = num1 - num2;
+            return sub;
         }
         public static  double Substraction (double[] numbersArray)
         {

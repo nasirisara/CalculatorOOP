@@ -44,13 +44,23 @@ namespace CalculatorOOP
                     break;
                     }
                 case '+':
-
-                    Console.WriteLine(Calculator.Addition(numbersArray));
-                    break;
+                    {
+                        Console.WriteLine("insert number1 , insert number2");
+                        double number1 = Convert.ToDouble(Console.ReadLine());
+                        double number2 = Convert.ToDouble(Console.ReadLine());
+                        Console.WriteLine(Calculator.Addition(number1, number2));
+                        Console.WriteLine(Calculator.Addition(numbersArray));
+                        break;
+                    }
                 case '-':
-                    Console.WriteLine(Calculator.Substraction (numbersArray));
-                    break;
-
+                    {
+                        Console.WriteLine("insert number1 , insert number2");
+                        double number1 = Convert.ToDouble(Console.ReadLine());
+                        double number2 = Convert.ToDouble(Console.ReadLine());
+                        Console.WriteLine(Calculator.Substraction(number1, number2));
+                        Console.WriteLine(Calculator.Substraction(numbersArray));
+                        break;
+                    }
 
 
 
